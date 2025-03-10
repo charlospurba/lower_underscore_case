@@ -17,10 +17,10 @@ Lower Underscore Case adalah aplikasi backend yang dibangun menggunakan **Golang
 git clone https://github.com/charlospurba/lower_underscore_case.git
 cd lower_underscore_case
 
-** 2. Install Dependencies**
+### 2. Install Dependencies
 go mod tidy
 
-**3. Konfigurasi Environment**
+### 3. Konfigurasi Environment
 uat file .env di root direktori proyek dan tambahkan konfigurasi berikut:
 DB_HOST=localhost
 DB_PORT=5432
@@ -29,12 +29,12 @@ DB_PASSWORD=your_db_password
 DB_NAME=your_db_name
 JWT_SECRET=your_jwt_secret
 
-**4. Migrasi Database**
+### 4. Migrasi Database
 Pastikan database sudah dibuat dan dapat diakses. Kemudian, jalankan migrasi:
 
 go run migrations/migrate.go
 
-**5. Generate Dokumentasi Swagger**
+### 5. Generate Dokumentasi Swagger
 Instal Swagger terlebih dahulu jika belum:
 
 go install github.com/swaggo/swag/cmd/swag@latest
@@ -43,7 +43,7 @@ Kemudian, generate dokumentasi:
 
 swag init
 
-**6. Jalankan Server**
+### 6. Jalankan Server
 
 go run main.go
 
