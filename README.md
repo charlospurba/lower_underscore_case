@@ -67,3 +67,6 @@ go run main.go
 
 Server akan berjalan di: [http://localhost:8080/swagger/index.html](http://localhost:8080/swagger/index.html)
 
+Note:
+ERD -> https://dbdiagram.io/d/67cd9fa6263d6cf9a0bd588a
+
